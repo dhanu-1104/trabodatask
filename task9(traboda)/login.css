@@ -1,0 +1,46 @@
+.wrapper {
+background-color: rgb(255, 255, 255);
+
+height: 644px;
+margin-top: 84px;
+margin-left: 104px;
+margin-right: 104px;
+border-radius: 14px;
+}
+body{
+    background-color: rgba(234, 234, 234, 0.642);
+    background-image: url('background.png');
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 60% 40% ;
+    height: 100%;
+    padding: px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    font-size: 30px;
+    
+  }
+  button.login {
+    background-color: #e51414dc;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  button.login {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Kanit', sans-serif;
+  }
+  button.login:hover {
+    background-color: #ac0000; /* Green */
+    color: white;
+  }
